@@ -60,7 +60,7 @@ public class CompteBancaire {
     @Override
     public String toString() {
         return "CompteBancaire{" +
-                "numero=" + num +
+                "num=" + num +
                 ", solde=" + solde +
                 ", client=" + client +
                 '}';

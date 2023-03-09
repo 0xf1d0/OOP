@@ -108,7 +108,9 @@ public class Banque {
     @Override
     public String toString() {
         return "Banque{" +
-                "nom='" + nom + '\'' +
+                "comptes=" + comptes +
+                ", clients=" + clients +
+                ", nom='" + nom + '\'' +
                 '}';
     }
 }

@@ -33,7 +33,8 @@ public class CompteBancaireRemunere extends CompteBancaire {
     @Override
     public String toString() {
         return "CompteBancaireRemunere{" +
-                "tauxInteret=" + tauxInteret +
+                "solde=" + solde +
+                ", tauxInteret=" + tauxInteret +
                 '}';
     }
 }
